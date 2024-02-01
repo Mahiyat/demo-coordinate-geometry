@@ -1,0 +1,26 @@
+# .dockerignore
+
+# Exclude virtual environment
+myenv/
+
+# Exclude any compiled Python files
+*.pyc
+__pycache__
+
+# Exclude Django related files
+db.sqlite3
+*.pyo
+*.pyc
+
+# Exclude other development-related files
+*.log
+*.pot
+*.pyo
+*.pyc
+*~
+*.db
+*.sqlite3
+*.swp
+media/
+static/
+node_modules/
